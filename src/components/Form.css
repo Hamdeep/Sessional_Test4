@@ -3,15 +3,14 @@
 }
 
 body {
-    background: rgb(202, 38, 167);
-    background: linear-gradient(90deg, rgb(170, 33, 197) 0%, rgba(255, 255, 255, 1) 100%);
+   background-image: url('https://b.zmtcdn.com/data/pictures/9/18467129/ad2cef7393f50aa977761cdb8fb049a5.jpg');
 }
 
 
 h1 {
     text-align: center;
     margin-top: 30px;
-    color: rgb(8, 8, 8);
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -19,7 +18,8 @@ h1 {
     text-align: center;
     height: 450px;
     width: 400px;
-    background-color: #b535f0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgtREY5vpIFcIhaoxgwZAoBZHlkbDX3Q-e1w&usqp=CAU');
+    
     margin: auto;
     margin-top: 50px;
     border-radius: 15px;

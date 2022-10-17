@@ -13,7 +13,7 @@ export default function Form() {
   let history = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    let a = Age, b = Name, c = RollNo , d=Email;
+    let a = RollNo, b = Name, c = Age , d=Email;
     Cricketers.push({ a, b, c ,d});
     // console.log(Cricketers);
     history('/added');
@@ -23,18 +23,18 @@ export default function Form() {
 
   return (
     <div>
-      <h1>Student Information</h1>
+      <h1>Place Your Order</h1>
       <form className='container'>
         
-        <label>Name</label><br></br>
+        <label >Name</label><br></br>
+        <input type="text" placeholder='Enter Your Name' onChange={(e) => setroll(e.target.value)} required></input><br></br>
+        <label>Dish Name</label><br></br>
         <input type="text"   placeholder='Enter Name' onChange={(e) => setname(e.target.value)} required></input><br></br>
-        <label>Age</label><br></br>
-        <input type="number"   placeholder='Enter Age' onChange={(e) => setage(e.target.value)} required></input><br></br>
-        <label >Roll No</label><br></br>
-        <input type="number" placeholder='Enter RollNo' onChange={(e) => setroll(e.target.value)} required></input><br></br>
-        <label >Email</label><br />
-                <input type="email"
-                    placeholder='Enter email'
+        <label>Quantity</label><br></br>
+        <input type="number"   placeholder='Enter Quantiy' onChange={(e) => setage(e.target.value)} required></input><br></br>
+        <label >Beverage</label><br />
+                <input type="text"
+                    placeholder='Enter Beverage'
                     onChange={(e) => setEmail(e.target.value)}
                     required>
                 </input>

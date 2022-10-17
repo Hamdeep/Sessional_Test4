@@ -8,12 +8,13 @@
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url('https://uploads-ssl.webflow.com/62aae3a2134cd27204efacc7/62f09e75d19c8b0cfba88b17_restaurant%20management%20system.jpg');
     background-size: cover;
     overflow: hidden;
 }
 
 .background h1{
-    color: #070707;
+    color:whitesmoke;
 }
 
 

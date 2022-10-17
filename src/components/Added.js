@@ -10,15 +10,15 @@ export default function Added() {
 
   return (
     <div className='background'>
-    <h1>Personal Information</h1>
+    <h1>Order Details</h1>
     <div className='tablecard'>
       <table>
         <thead>
           <tr>
             <th>Name</th>
-            <th>Age</th>
-            <th>RollNo</th>
-            <th>Email</th>
+            <th>Dish</th>
+            <th>Quantity</th>
+            <th>Beverage</th>
           </tr>
 
         </thead>
@@ -27,8 +27,9 @@ export default function Added() {
             Cricketers.map((item)=>{
               return(
                 <tr >
-                  <td>{item.b}</td>
                   <td>{item.a}</td>
+                  <td>{item.b}</td>
+                  
                   <td>{item.c}</td>
                   <td>{item.d}</td>
                 </tr>
